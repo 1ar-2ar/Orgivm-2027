@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
-    <nav>
-      <h2>ORGIVM</h2>
-    </nav>
+    <div>
+      ORGIVM IV NAVBAR
+    </div>
   );
 }
