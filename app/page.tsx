@@ -1,8 +1,10 @@
+import VideoBackground from "../components/VideoBackground";
 import Navbar from "../components/navbar";
 
 export default function Home() {
   return (
     <>
+      <VideoBackground />
       <Navbar />
 
       <main className="min-h-screen bg-black text-white">
