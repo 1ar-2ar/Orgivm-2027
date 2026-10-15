@@ -22,7 +22,7 @@ export default function LineupPreview() {
       className="relative z-10 min-h-screen flex items-center"
     >
       <div className="mx-auto w-full max-w-7xl px-8">
-        <p className="mb-6 text-sm uppercase tracking-[0.4em] text-gray-400">
+        <p className="mb-6 text-sm uppercase tracking-[0.4em] text-gray-400 text-center">
           Orgivm Satanicvm
         </p>
 
@@ -30,7 +30,7 @@ export default function LineupPreview() {
           Summoning darkness at Orgivm Satanicvm VI
         </h2>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
 
   {/* Friday */}
   <div>
@@ -40,7 +40,7 @@ export default function LineupPreview() {
 
     <div className="w-20 h-px bg-red-700 mx-auto mb-6"></div>
 
-    <div className="space-y-4">
+    <div className="space-y-4 max-w-md mx-auto">
       {fridaybands.map((band) => (
         <div
           key={band}
@@ -50,7 +50,7 @@ export default function LineupPreview() {
             border
             border-white/10
             rounded-lg
-            min-h-[100px]
+            min-h-[130px]
             flex
             items-center
             justify-center
@@ -101,7 +101,7 @@ export default function LineupPreview() {
 
     <div className="w-20 h-px bg-red-700 mx-auto mb-6"></div>
 
-    <div className="space-y-4">
+    <div className="space-y-4 max-w-md mx-auto">
       {saturdaybands.map((band) => (
         <div
           key={band}
@@ -109,7 +109,7 @@ export default function LineupPreview() {
             border
             border-white/10
             rounded-lg
-            min-h-[100px]
+            min-h-[130px]
             flex
             items-center
             justify-center
