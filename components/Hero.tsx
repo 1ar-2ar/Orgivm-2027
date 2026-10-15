@@ -19,7 +19,7 @@ export default function Hero() {
           />
         </div>
 
-        <p className="mb-4 text-xl md:text-2xl">
+        <p className="mb-4 text-xl md:text-6xl">
           Two Days of the Darkest and Blackest Metal
         </p>
 

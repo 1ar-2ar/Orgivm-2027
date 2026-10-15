@@ -1,15 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const bands = [
+const fridaybands = [
   "ULVESANGER",
-  "DHG",
   "NORDJEVEL",
   "FEN",
+  "ASKEREGN"
+];
+
+const saturdaybands = [  
+  "DHG",
   "MORTEM",
   "AVRAK",
   "ABDUCTION",
-  "ASKEREGN",
 ];
 
 export default function LineupPreview() {
@@ -23,68 +26,123 @@ export default function LineupPreview() {
           Orgivm Satanicvm
         </p>
 
-        <h2 className="mb-16 text-5xl md:text-7xl font-bold uppercase text-white">
+        <h2 className="mb-12 text-5xl md:text-7xl font-bold uppercase text-white text-center">
           Summoning darkness at Orgivm Satanicvm VI
         </h2>
 
-        <div className="space-y-10">
-          {bands.map((band) => (
-            <div
-              key={band}
-              className="
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+  {/* Friday */}
+  <div>
+    <h3 className="mb-6 text-2xl font-bold uppercase text-white text-center">
+      Friday
+    </h3>
+
+    <div className="w-20 h-px bg-red-700 mx-auto mb-6"></div>
+
+    <div className="space-y-4">
+      {fridaybands.map((band) => (
+        <div
+          key={band}
+          className="
+            relative
+            overflow-hidden
+            border
+            border-white/10
+            rounded-lg
+            min-h-[100px]
+            flex
+            items-center
+            justify-center
+            transition-all
+            duration-300
+            hover:border-red-700
+            hover:bg-white/5
+          "
+        >
+          {band === "FEN" && (
+            <>
+              <Image
+                src="/images/bands/fen.jpg"
+                alt="FEN"
+                fill
+                className="object-cover transition-transform duration-700 hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-black/50" />
+            </>
+          )}
+
+          <h3
+            style={{ textShadow: "0 0 20px rgba(0,0,0,0.9)" }}
+            className="
               relative
-              overflow-hidden
-              border
-              border-white/10
-              rounded-lg
-              min-h-[350px]
-              flex
-              items-center
-              justify-center
-              transition-all
-              duration-300
-              hover:border-red-700
-              hover:bg-white/5
-              "
-            >
-               {band === "FEN" && (
-    <>
-      <Image
-        src="/images/bands/fen.jpg"
-        alt="FEN"
-        fill
-        className="object-cover transition-transform duration-700 hover:scale-110"
-      />
-
-      <div className="absolute inset-0 bg-black/50" />
-    </>
-  )}
-              <h3
-              style={{ textShadow: "0 0 20px rgba(0,0,0,0.9)" }}
-                className="
-                relative
-                z-10
-                text-center
-                  text-3xl
-                  md:text-4xl
-                  lg:text-5xl
-                  font-bold
-                  tracking-wider
-                  text-white
-                  drop-shadow-lg
-                  duration-300
-                  hover:text-red-700
-                "
-              >
-                {band}
-              </h3>
-            </div>
-          ))}
+              z-10
+              text-center
+              text-2xl
+              md:text-3xl
+              font-bold
+              tracking-wider
+              text-white
+              hover:text-red-700
+            "
+          >
+            {band}
+          </h3>
         </div>
+      ))}
+    </div>
+  </div>
 
+  {/* Saturday */}
+  <div>
+    <h3 className="mb-6 text-2xl font-bold uppercase text-white text-center">
+      Saturday
+    </h3>
+
+    <div className="w-20 h-px bg-red-700 mx-auto mb-6"></div>
+
+    <div className="space-y-4">
+      {saturdaybands.map((band) => (
+        <div
+          key={band}
+          className="
+            border
+            border-white/10
+            rounded-lg
+            min-h-[100px]
+            flex
+            items-center
+            justify-center
+            transition-all
+            duration-300
+            hover:border-red-700
+            hover:bg-white/5
+          "
+        >
+          <h3
+            style={{ textShadow: "0 0 20px rgba(0,0,0,0.9)" }}
+            className="
+              text-center
+              text-2xl
+              md:text-3xl
+              font-bold
+              tracking-wider
+              text-white
+              hover:text-red-700
+            "
+          >
+            {band}
+          </h3>
+        </div>
+      ))}
+    </div>
+  </div>
+
+</div>
         <div className="mt-16">
         </div>
-      </div>
-    </section>
-  );
+
+             </div>
+          </section>
+    );
 }
