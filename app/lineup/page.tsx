@@ -19,7 +19,7 @@ export default function LineupPage() {
 </section>
 
       <section
-        id="ULVESANGER"
+        id="ulvesanger"
         className="max-w-6xl mx-auto px-8 pb-24"
       >
         <div
@@ -60,7 +60,7 @@ The three first Ulver releases, "Bergtatt", "Kveldssanger" and "Nattens Madrigal
       </section>
 
       <section
-        id="NORDJEVEL"
+        id="nordjevel"
         className="max-w-6xl mx-auto px-8 pb-24"
       >
         <div
@@ -144,7 +144,7 @@ Their upcoming album, “Elemental (Part 1: Mourning Earth),” released under P
       </section>
 
       <section
-        id="Askeregn"
+        id="askeregn"
         className="max-w-6xl mx-auto px-8 pb-24"
       >
         <div
@@ -191,7 +191,7 @@ Their upcoming album, “Elemental (Part 1: Mourning Earth),” released under P
 </section>
 
       <section
-        id="DØDHEIMSGARD"
+        id="dødheimsgard"
         className="max-w-6xl mx-auto px-8 pb-24"
       >
         <div
@@ -232,7 +232,7 @@ Black Metal innovators DHG/Dødheimsgard Official hardly needs any introduction.
       </section>
 
       <section
-        id="MORTEM"
+        id="mortem"
         className="max-w-6xl mx-auto px-8 pb-24"
       >
         <div
@@ -275,7 +275,7 @@ In july Mortem will release their second album, "Mørketid", on Peaceville Recor
       </section>
 
       <section
-        id="AVRAK"
+        id="avrak"
         className="max-w-6xl mx-auto px-8 pb-24"
       >
         <div
@@ -318,7 +318,7 @@ In the meantime, they have recorded their debut album with Knut Magne Valle (Arc
       </section>
 
       <section
-        id="Abduction"
+        id="abduction"
         className="max-w-6xl mx-auto px-8 pb-24"
       >
         <div

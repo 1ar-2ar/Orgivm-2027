@@ -6,14 +6,25 @@ const fridaybands = [
   "NORDJEVEL",
   "FEN",
   "ASKEREGN"
-];
+] as const;
 
 const saturdaybands = [  
-  "DHG",
+  "DØDHEIMSGARD",
   "MORTEM",
   "AVRAK",
   "ABDUCTION",
-];
+] as const;
+
+const bandImages = {
+  ULVESANGER: "/images/bands/Ulvesanger og DHG.jpg",
+  NORDJEVEL: "/images/bands/Nordjevel1.jpg",
+  FEN: "/images/bands/Fen.jpg",
+  ASKEREGN: "/images/bands/Askeregn.jpg",
+  DØDHEIMSGARD: "/images/bands/Ulvesanger og DHG.jpg",
+  MORTEM: "/images/bands/Mortem.jpg",
+  AVRAK: "/images/bands/avrak.jpg",
+  ABDUCTION: "/images/bands/Abduction.png",
+};
 
 export default function LineupPreview() {
   return (
@@ -45,6 +56,7 @@ export default function LineupPreview() {
         <div
           key={band}
           className="
+            group
             relative
             overflow-hidden
             border
@@ -60,20 +72,21 @@ export default function LineupPreview() {
             hover:bg-white/5
           "
         >
-          {band === "FEN" && (
-            <>
-              <Image
-                src="/images/bands/fen.jpg"
-                alt="FEN"
-                fill
-                className="object-cover transition-transform duration-700 hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/50" />
-            </>
+          {bandImages[band] && (
+          <>
+  <Image
+    src={bandImages[band as keyof typeof bandImages]}
+    alt={band}
+    fill
+    sizes="(max-width: 768px) 100vw, 50vw"
+    className="object-cover transition-transform duration-700 hover:scale-110"
+  />
+  <div className="absolute inset-0 bg-black/50" />
+</>
           )}
-
-          <h3
-            style={{ textShadow: "0 0 20px rgba(0,0,0,0.9)" }}
+          <Link
+          href={`/lineup#${band.toLowerCase()}`}
+            
             className="
               relative
               z-10
@@ -83,11 +96,14 @@ export default function LineupPreview() {
               font-bold
               tracking-wider
               text-white
-              hover:text-red-700
+              transition-colors
+              duration-300
+              group-hover:text-red-700
             "
+            style={{ textShadow: "0 0 20px rgba(0,0,0,0.9)" }}
           >
             {band}
-          </h3>
+          </Link>
         </div>
       ))}
     </div>
@@ -106,6 +122,9 @@ export default function LineupPreview() {
         <div
           key={band}
           className="
+            group
+            relative
+            overflow-hidden
             border
             border-white/10
             rounded-lg
@@ -119,20 +138,38 @@ export default function LineupPreview() {
             hover:bg-white/5
           "
         >
-          <h3
-            style={{ textShadow: "0 0 20px rgba(0,0,0,0.9)" }}
+           {bandImages[band] && (
+          <>
+  <Image
+    src={bandImages[band as keyof typeof bandImages]}
+    alt={band}
+    fill
+    sizes="(max-width: 768px) 100vw, 50vw"
+    className="object-cover transition-transform duration-700 hover:scale-110"
+  />
+  <div className="absolute inset-0 bg-black/50" />
+</>
+          )}
+
+          <Link
+            href={`/lineup#${band.toLowerCase()}`}
             className="
+               relative
+               z-10
               text-center
               text-2xl
               md:text-3xl
               font-bold
               tracking-wider
               text-white
-              hover:text-red-700
+              transition-colors
+              duration-300
+              group-hover:text-red-700
             "
+            style={{ textShadow: "0 0 20px rgba(0,0,0,0.9)" }}
           >
             {band}
-          </h3>
+          </Link>
         </div>
       ))}
     </div>
