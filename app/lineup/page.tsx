@@ -20,7 +20,7 @@ export default function LineupPage() {
 
       <section
         id="ulvesanger"
-        className="max-w-6xl mx-auto px-8 pb-24"
+        className="max-w-6xl mx-auto px-8 pb-24 scroll-mt-32"
       >
         <div
   className="
@@ -61,7 +61,7 @@ The three first Ulver releases, "Bergtatt", "Kveldssanger" and "Nattens Madrigal
 
       <section
         id="nordjevel"
-        className="max-w-6xl mx-auto px-8 pb-24"
+        className="max-w-6xl mx-auto px-8 pb-24 scroll-mt-32"
       >
         <div
   className="
@@ -74,7 +74,7 @@ The three first Ulver releases, "Bergtatt", "Kveldssanger" and "Nattens Madrigal
   <div className="grid md:grid-cols-2 gap-12 items-center">
 
           <Image
-            src="/images/bands/Nordjevellineup.jpg"
+            src="/images/bands/Nordjevel1.jpg"
             alt="FEN"
             width={450}
             height={300}
@@ -104,7 +104,7 @@ This winter the band will release its fourth album, and to mark this occasion we
 
       <section
         id="fen"
-        className="max-w-6xl mx-auto px-8 pb-24"
+        className="max-w-6xl mx-auto px-8 pb-24 scroll-mt-32"
       >
         <div
   className="
@@ -117,7 +117,7 @@ This winter the band will release its fourth album, and to mark this occasion we
   <div className="grid md:grid-cols-2 gap-12 items-center">
 
           <Image
-            src="/images/bands/fenlineup.jpg"
+            src="/images/bands/fen.jpg"
             alt="FEN"
             width={450}
             height={300}
@@ -145,7 +145,7 @@ Their upcoming album, “Elemental (Part 1: Mourning Earth),” released under P
 
       <section
         id="askeregn"
-        className="max-w-6xl mx-auto px-8 pb-24"
+        className="max-w-6xl mx-auto px-8 pb-24 scroll-mt-32"
       >
         <div
   className="
@@ -158,7 +158,7 @@ Their upcoming album, “Elemental (Part 1: Mourning Earth),” released under P
   <div className="grid md:grid-cols-2 gap-12 items-center">
 
           <Image
-            src="/images/bands/Askeregnlineup.jpg"
+            src="/images/bands/Askeregn.jpg"
             alt="ASKEREGN"
             width={450}
             height={300}
@@ -191,8 +191,8 @@ Their upcoming album, “Elemental (Part 1: Mourning Earth),” released under P
 </section>
 
       <section
-        id="dødheimsgard"
-        className="max-w-6xl mx-auto px-8 pb-24"
+        id="dhg"
+        className="max-w-6xl mx-auto px-8 pb-24 scroll-mt-32"
       >
         <div
   className="
@@ -205,7 +205,7 @@ Their upcoming album, “Elemental (Part 1: Mourning Earth),” released under P
   <div className="grid md:grid-cols-2 gap-12 items-center">
 
           <Image
-            src="/images/bands/Ulvesanger og DHG.jpg"
+            src="/images/bands/DHG.jpg"
             alt="DØDHEIMSGARD"
             width={450}
             height={300}
@@ -233,7 +233,7 @@ Black Metal innovators DHG/Dødheimsgard Official hardly needs any introduction.
 
       <section
         id="mortem"
-        className="max-w-6xl mx-auto px-8 pb-24"
+        className="max-w-6xl mx-auto px-8 pb-24 scroll-mt-32"
       >
         <div
   className="
@@ -246,7 +246,7 @@ Black Metal innovators DHG/Dødheimsgard Official hardly needs any introduction.
   <div className="grid md:grid-cols-2 gap-12 items-center">
 
           <Image
-            src="/images/bands/Mortemlineup.jpg"
+            src="/images/bands/Mortem.jpg"
             alt="MORTEM"
             width={450}
             height={300}
@@ -276,7 +276,7 @@ In july Mortem will release their second album, "Mørketid", on Peaceville Recor
 
       <section
         id="avrak"
-        className="max-w-6xl mx-auto px-8 pb-24"
+        className="max-w-6xl mx-auto px-8 pb-24 scroll-mt-32"
       >
         <div
   className="
@@ -289,7 +289,7 @@ In july Mortem will release their second album, "Mørketid", on Peaceville Recor
   <div className="grid md:grid-cols-2 gap-12 items-center">
 
           <Image
-            src="/images/bands/Avraklineup.jpg"
+            src="/images/bands/Avrak.jpg"
             alt="AVRAK"
             width={450}
             height={300}
@@ -319,7 +319,7 @@ In the meantime, they have recorded their debut album with Knut Magne Valle (Arc
 
       <section
         id="abduction"
-        className="max-w-6xl mx-auto px-8 pb-24"
+        className="max-w-6xl mx-auto px-8 pb-24 scroll-mt-32"
       >
         <div
   className="
@@ -332,7 +332,7 @@ In the meantime, they have recorded their debut album with Knut Magne Valle (Arc
   <div className="grid md:grid-cols-2 gap-12 items-center">
 
           <Image
-            src="/images/bands/Abductionlineup.jpg"
+            src="/images/bands/Abduction.png"
             alt="Abduction"
             width={450}
             height={300}

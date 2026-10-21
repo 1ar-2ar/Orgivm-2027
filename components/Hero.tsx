@@ -13,8 +13,8 @@ export default function Hero() {
           <Image
             src="/images/logo/orgivm logo rød.png"
             alt="Orgivm VI"
-            width={900}
-            height={400}
+            width={700}
+            height={300}
             className="w-full max-w-4xl"
           />
         </div>
@@ -28,14 +28,14 @@ export default function Hero() {
         </p>
         <div className="mt-10 flex justify-center gap-6">
   <a
-    href="#tickets"
+    href="/tickets"
     className="rounded border border-red-800 bg-black/60 px-6 py-3 uppercase tracking-wider text-white transition duration-300 hover:border-red-950 hover:bg-red-600"
   >
     Buy Tickets
   </a>
 
   <a
-    href="#lineup"
+    href="/lineup"
     className="rounded border border-red-800 bg-black/60 px-6 py-3 uppercase tracking-wider text-white transition duration-300 hover:border-red-950 hover:bg-red-600"
   >
     See Lineup

@@ -37,7 +37,7 @@ export default function InfoPage() {
           </p>
 
           <p className="text-gray-300">
-            Doors open: 18:00
+            Doors open: 19:00
           </p>
 
           <p className="text-gray-300">
@@ -51,7 +51,7 @@ export default function InfoPage() {
   </h2>
 
   <a
-    href="https://www.ticketmaster.no/"
+    href="https://www.ticketmaster.no/search?q=orgivm+satanicvm"
     target="_blank"
     rel="noopener noreferrer"
     className="text-red-700 hover:text-red-500 transition-colors"

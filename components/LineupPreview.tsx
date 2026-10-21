@@ -17,13 +17,24 @@ const saturdaybands = [
 
 const bandImages = {
   ULVESANGER: "/images/bands/Ulvesanger og DHG.jpg",
-  NORDJEVEL: "/images/bands/Nordjevel1.jpg",
-  FEN: "/images/bands/Fen.jpg",
-  ASKEREGN: "/images/bands/Askeregn.jpg",
+  NORDJEVEL: "/images/bands/Nordjevellineup.jpg",
+  FEN: "/images/bands/Fenlineup.jpg",
+  ASKEREGN: "/images/bands/Askeregnlineup.jpg",
   DØDHEIMSGARD: "/images/bands/Ulvesanger og DHG.jpg",
-  MORTEM: "/images/bands/Mortem.jpg",
-  AVRAK: "/images/bands/avrak.jpg",
-  ABDUCTION: "/images/bands/Abduction.png",
+  MORTEM: "/images/bands/Mortemlineup.jpg",
+  AVRAK: "/images/bands/avraklineup.jpg",
+  ABDUCTION: "/images/bands/Abductionlineup.jpg",
+};
+
+const bandLinks = {
+  ULVESANGER: "ulvesanger",
+  NORDJEVEL: "nordjevel",
+  FEN: "fen",
+  ASKEREGN: "askeregn",
+  DØDHEIMSGARD: "dhg",
+  MORTEM: "mortem",
+  AVRAK: "avrak",
+  ABDUCTION: "abduction",
 };
 
 export default function LineupPreview() {
@@ -85,7 +96,7 @@ export default function LineupPreview() {
 </>
           )}
           <Link
-          href={`/lineup#${band.toLowerCase()}`}
+          href={`/lineup#${bandLinks[band]}`}
             
             className="
               relative
@@ -152,7 +163,7 @@ export default function LineupPreview() {
           )}
 
           <Link
-            href={`/lineup#${band.toLowerCase()}`}
+            href={`/lineup#${bandLinks[band]}`}
             className="
                relative
                z-10
