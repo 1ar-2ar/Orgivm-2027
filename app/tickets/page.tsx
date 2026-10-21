@@ -49,11 +49,11 @@ export default function TicketsPage() {
     Eight exclusive performances.
   </p>
 
-  <p className="text-gray-300 mt-4">
+  <p className="text-gray-300 mt-6">
     Two days of carefully curated Black Metal.
   </p>
 
-  <p className="text-gray-300 mt-4">
+  <p className="text-gray-300 mt-6">
     Parkteatret, Oslo · 8-9 January 2027.
   </p>
 
