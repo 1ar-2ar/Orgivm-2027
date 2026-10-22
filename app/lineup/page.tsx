@@ -220,8 +220,17 @@ Their upcoming album, “Elemental (Part 1: Mourning Earth),” released under P
             <div className="w-20 h-px bg-red-700 mx-auto mb-6"></div>
 
             <p className="text-gray-300 leading-relaxed">
-             Exclusive expanded "Black Medium Current" set!
-Black Metal innovators DHG/Dødheimsgard Official hardly needs any introduction. Since 1994 they have redefined the genre, broken most of its rules and simply ended up as standard bearers within avantgarde Black Metal. In 2025 the band's alter ego, Doedsmaghird, played their only show thus far at Orgivm Satanicvm IV, and that success is set to be surpassed when Dødheimsgard themselves deliver the brilliant and acclaimed album "Black Medium Current" in its entirety with an expanded band line-up, something they have only done once before, at Roadburn 2025. Vicotnik and his cronies have promised a magic experience, so expect both chills and tears from a spellbound audience!
+            Exclusive expanded "Black Medium Current" set!
+            <br />Black Metal innovators Dødheimsgard hardly needs any introduction. 
+            Since 1994 they have redefined the genre, broken most of its rules and 
+            simply ended up as standard bearers within avantgarde Black Metal. 
+            In 2025 the band's alter ego, Doedsmaghird, played their only show 
+            thus far at Orgivm Satanicvm IV, and that success is set to be surpassed 
+            when Dødheimsgard themselves deliver the brilliant and acclaimed album 
+            "Black Medium Current" in its entirety with an expanded band line-up, 
+            something they have only done once before, at Roadburn 2025. Vicotnik 
+            and his cronies have promised a magic experience, so expect both chills 
+            and tears from a spellbound audience! 
               
 
             </p>
