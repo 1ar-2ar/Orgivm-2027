@@ -41,7 +41,7 @@ export default function LineupPreview() {
   return (
     <section
       id="lineup"
-      className="relative z-10 min-h-screen flex items-center"
+      className="relative z-10 flex items-center py-8"
     >
       <div className="mx-auto w-full max-w-7xl px-8">
         <p className="mb-6 text-sm uppercase tracking-[0.4em] text-gray-400 text-center">
@@ -187,8 +187,7 @@ export default function LineupPreview() {
   </div>
 
 </div>
-        <div className="mt-16">
-        </div>
+        
 
              </div>
           </section>

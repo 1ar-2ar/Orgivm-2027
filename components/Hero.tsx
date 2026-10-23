@@ -2,20 +2,20 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative z-10 flex min-h-screen items-center justify-center">
+    <section className="relative z-10 flex min-h-[75vh] items-center justify-center">
       <div className="text-center text-white">
 
         <p className="mb-6 text-sm uppercase tracking-[0.4em] text-gray-400">
           Oslo • Norway
         </p>
 
-        <div className="mb-8 flex justify-center">
+        <div className="mb-6 flex justify-center">
           <Image
             src="/images/logo/orgivm logo rød.png"
             alt="Orgivm VI"
             width={700}
             height={300}
-            className="w-full max-w-4xl"
+            className="w-full max-w-4xl drop-shadow-[0_0_25px_rgba(220,38,38,0.5)]"
           />
         </div>
 
