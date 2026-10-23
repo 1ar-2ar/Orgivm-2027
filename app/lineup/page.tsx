@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function LineupPage() {
   return (
-    <main className="min-h-screen bg-black text-white pt-20">
+    <main className="min-h-screen text-white pt-20">
 
       <section className="py-24 text-center">
         <h1 className="text-4xl md:text-6xl font-bold uppercase">

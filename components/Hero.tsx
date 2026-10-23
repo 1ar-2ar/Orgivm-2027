@@ -11,7 +11,7 @@ export default function Hero() {
 
         <div className="mb-6 flex justify-center">
           <Image
-            src="/images/logo/orgivm logo rød.png"
+            src="/images/logo/orgivm logo.png"
             alt="Orgivm VI"
             width={700}
             height={300}

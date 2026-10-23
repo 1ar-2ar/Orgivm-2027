@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function InfoPage() {
   return (
-    <main className="min-h-screen bg-black text-white pt-32">
+    <main className="min-h-screen text-white pt-32">
       <div className="max-w-5xl mx-auto px-8">
 
         <h1 className="text-5xl md:text-7xl font-bold uppercase mb-12">

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function TicketsPage() {
   return (
-    <main className="min-h-screen bg-black text-white pt-20">
+    <main className="min-h-screen text-white pt-20">
       <section className="mb-16 text-center">
 
         <section className="py-24">
