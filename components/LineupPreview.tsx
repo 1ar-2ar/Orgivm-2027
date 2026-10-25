@@ -16,14 +16,14 @@ const saturdaybands = [
 ] as const;
 
 const bandImages = {
-  ULVESANGER: "/images/bands/Ulvesanger og DHG.jpg",
-  NORDJEVEL: "/images/bands/Nordjevellineup.jpg",
-  FEN: "/images/bands/Fenlineup.jpg",
-  ASKEREGN: "/images/bands/Askeregnlineup.jpg",
-  DØDHEIMSGARD: "/images/bands/Ulvesanger og DHG.jpg",
-  MORTEM: "/images/bands/Mortemlineup.jpg",
-  AVRAK: "/images/bands/avraklineup.jpg",
-  ABDUCTION: "/images/bands/Abductionlineup.jpg",
+  ULVESANGER: "/images/bands/Bakgrunn to sverd.png",
+  NORDJEVEL: "/images/bands/Bakgrunn to sverd.png",
+  FEN: "/images/bands/Bakgrunn to sverd.png",
+  ASKEREGN: "/images/bands/Bakgrunn to sverd.png",
+  DØDHEIMSGARD: "/images/bands/Bakgrunn to sverd.png",
+  MORTEM: "/images/bands/Bakgrunn to sverd.png",
+  AVRAK: "/images/bands/Bakgrunn to sverd.png",
+  ABDUCTION: "/images/bands/Bakgrunn to sverd.png",
 };
 
 const bandLinks = {
@@ -92,7 +92,7 @@ export default function LineupPreview() {
     sizes="(max-width: 768px) 100vw, 50vw"
     className="object-cover transition-transform duration-700 hover:scale-110"
   />
-  <div className="absolute inset-0 bg-black/50" />
+  <div className="absolute inset-0 bg-black/65" />
 </>
           )}
           <Link
@@ -158,7 +158,7 @@ export default function LineupPreview() {
     sizes="(max-width: 768px) 100vw, 50vw"
     className="object-cover transition-transform duration-700 hover:scale-110"
   />
-  <div className="absolute inset-0 bg-black/50" />
+  <div className="absolute inset-0 bg-black/65" />
 </>
           )}
 
