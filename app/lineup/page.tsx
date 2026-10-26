@@ -33,7 +33,7 @@ export default function LineupPage() {
   <div className="grid md:grid-cols-2 gap-12 items-center">
 
           <Image
-            src="/images/bands/Ulvesanger og DHG.jpg"
+            src="/images/bands/Ulvesanger.jpg"
             alt="FEN"
             width={450}
             height={300}
