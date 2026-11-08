@@ -145,8 +145,6 @@ make this show an experience you really don't want to miss.
           <Image
             src="/images/bands/FEN p.jpg"
             alt="FEN"
-            width={450}
-            height={300}
             className="rounded-lg w-full object-cover"
           />
 
