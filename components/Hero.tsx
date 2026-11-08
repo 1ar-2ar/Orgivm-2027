@@ -10,7 +10,7 @@ export default function Hero() {
         </p>
 
         <div className="mb-6 flex justify-center">
-          <Image
+          <img
             src="/images/logo/Orgivm logo.png"
             alt="Orgivm VI"
             width={700}
