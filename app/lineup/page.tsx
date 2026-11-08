@@ -143,7 +143,7 @@ make this show an experience you really don't want to miss.
   <div className="grid md:grid-cols-2 gap-12 items-center">
 
           <Image
-            src="/images/bands/fen p.jpg"
+            src="/images/bands/FEN p.jpg"
             alt="FEN"
             width={450}
             height={300}
