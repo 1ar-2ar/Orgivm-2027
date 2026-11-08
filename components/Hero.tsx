@@ -24,7 +24,7 @@ export default function Hero() {
         </p>
 
         <p className="text-xl upppercase tracking-wider text-zinc-200">
-          8.-9. January 2027 • Parkteatret • Oslo, Norway
+          8-9 January 2027 • Parkteatret • Oslo, Norway
         </p>
         <div className="mt-10 flex justify-center gap-6">
   <a
